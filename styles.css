@@ -8,6 +8,28 @@ body {
     background-color: #F9FAF8;
 }
 
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    text-align: center;
+    padding: 8px 32px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #E5E7EB;
+}
+
 .header {
     padding: 16px 180px;
     display: flex;
@@ -34,7 +56,7 @@ body {
 
 .hero-secondary {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
     color:#d4d5d8;
     margin-bottom: 16px;
 }
@@ -60,24 +82,104 @@ body {
     gap: 16px;
 }
 
-ul {
-    text-decoration: none;
-    list-style: none;
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 180px;
+    gap: 40px;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
+.card-title {
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937;
 }
 
-button {
-    background-color: #3882F6;
-    color:#F9FAF8;
+.card-list {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 140px;
+    gap: 8px;
     text-align: center;
-    padding: 8px 32px;
+    font-size: 14px;
+    font-weight: 400;
+    color:#848485;
+}
+
+.card-icon {
+    width: 140px;
+    height: 140px;
+    border: 3px solid #3882F6;
+    border-color: #3882F6;
     border-radius: 8px;
-    border: none;
-    font-size: 18px;
+}
+
+.featured {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: end;
+    padding: 80px 200px;
+    gap: 16px;
+    background-color: #E5E7EB;
+    margin-bottom: 80px;
+}
+
+.featured-phrase {
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+    font-weight: 300;
+}
+
+.featured-name {
+    font-size: 20px;
+    font-weight: 800;
+    color:#1F2937;
+}
+
+.cta {
+    margin: 0 180px 80px 180px;
+    padding: 40px 0;
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    border-radius: 8px;
+}
+
+.cta-main {
+    font-size: 24px;
     font-weight: 600;
-    color: #E5E7EB;
+    color: #F9FAF8;
+    margin-bottom: 4px;
+}
+
+.cta-secondary {
+    font-size: 16px;
+    font-weight: 400;
+    color: #F9FAF8;
+}
+
+.cta-button {
+    border: 2px solid #F9FAF8;
+    font-size: 16px;
+}
+
+footer {
+    font-size: 16px;
+    font-weight: 500;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 40px 80px;
+    background-color: #1F2937;
 }
