@@ -41,10 +41,15 @@ button {
 
 .hero {
     display: flex;
+    justify-content: center;
     align-items: center;
     padding: 80px 180px;
     background-color: #1F2937;
     gap: 40px;
+}
+
+.hero-text {
+    max-width: 450px;
 }
 
 .hero-main {
@@ -68,6 +73,7 @@ button {
     color: #F9FAF8;
     background-color: rgb(105, 105, 105);
     padding: 80px 180px;
+    width: 33%;
 }
 
 .logo {
@@ -126,7 +132,6 @@ button {
     display: flex;
     flex-direction: column;
     text-align: center;
-    align-items: end;
     padding: 80px 200px;
     gap: 16px;
     background-color: #E5E7EB;
@@ -138,16 +143,19 @@ button {
     font-style: italic;
     color:#1F2937;
     font-weight: 300;
+    text-align: center;
+    max-width: fit-content;
 }
 
 .featured-name {
     font-size: 20px;
     font-weight: 800;
     color:#1F2937;
+    text-align: right;
 }
 
 .cta {
-    margin: 0 180px 80px 180px;
+    margin: 80px auto;
     padding: 40px 0;
     background-color: #3882F6;
     display: flex;
@@ -155,6 +163,7 @@ button {
     justify-content: center;
     gap: 80px;
     border-radius: 8px;
+    max-width: 800px;
 }
 
 .cta-main {
